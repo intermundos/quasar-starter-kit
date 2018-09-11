@@ -2,7 +2,6 @@
   "name": "{{ name }}",
   "version": "1.0.0",
   "description": "{{ description }}",
-  "productName": "{{ productName }}",
   "cordovaId": "{{ cordovaId }}",
   "author": "{{ author }}",
   "private": true,

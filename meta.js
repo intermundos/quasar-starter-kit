@@ -17,18 +17,11 @@ module.exports = {
       return pkg.version
     }
   },
-
   prompts: {
     name: {
       type: 'string',
       required: true,
       message: 'Project name (internal usage for dev)',
-    },
-    productName: {
-      type: 'string',
-      required: true,
-      message: 'Project product name (official name)',
-      default: 'Quasar App'
     },
     description: {
       type: 'string',
